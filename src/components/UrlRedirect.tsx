@@ -6,7 +6,7 @@ import { GenericHelper } from '../helpers/GenericHelper';
 export const UrlRedirect: React.FC = () => {
   const promoterId = GenericHelper.getUrlQueryParamByName("promoterId");
   const payerId = GenericHelper.getUrlQueryParamByName("payerId");
-  const groupUrl = "https://t.me/empregourgenteSPc"; //test group
+  const groupUrl = "https://t.me/brothersvagasp";
 
   useEffect(() => {
     (async () => {
