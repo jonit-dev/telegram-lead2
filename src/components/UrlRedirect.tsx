@@ -10,6 +10,8 @@ export const UrlRedirect: React.FC = () => {
   // const payerId = GenericHelper.getUrlQueryParamByName("payerId");
   // const groupUrl = "https://t.me/brothersvagasp";
 
+  // randomize
+
   const payers: ICampaign[] = [
     { payerId: 5, groupUrl: "https://t.me/empregourgenteSPc" },
     { payerId: 3, groupUrl: "https://t.me/brothersvagasp" },
